@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub-body{
+    background-image: url(./images/bg-signup-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.sub-body .signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sub-body .si-left{
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    background-image: url(./images/bg-signup.jpg);
+    height: 600px;
+    width: 450px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+
+  .sub-body .si-left .material-symbols-outlined{
+   
+   padding: 10px;
+  }
+
+  .sub-body .si-left a .material-symbols-outlined{
+    text-decoration: none;
+    
+  }
+
+  .sub-body .signup .si-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+      background: #ffffff;
+      width: 500px;
+      height: 600px;
+      margin: 47px 0px;
+  
+  }
+
+  .sub-body .signup .si-right form{
+    margin-bottom: 20px;
+  }
+
+
+
+input{
+    width: 300px;
+    height: 30px;
+    gap: 10px;
+    border-width:0 0 1px 0;
+    background: none;
+  }
+
+  
+  .si-right h1{
+    font-weight: 400 ;
+    margin-bottom: 50px;
+  }
+
+  .si-right h4{
+    font-weight: 300 ;
+  }
+  
+.sub-body .signup  .si-left h1{
+    font-weight: 400;
+    margin-top: 100px;
+  }
+
+  .si-right .btn{
+    padding:10px 25px ;
+    border: none;
+    background-color: #e72638;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 0px 0px 0px 220px;
+  }
+
+  .si-right .btn:hover{
+    color: #e72638;
+    background-color: #ffffff;
+  }
+
+  .sub-body .signup .si-right .forms input{
+   margin: 8px 0;
+  }
+  
+
+
+
+
+

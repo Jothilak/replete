@@ -1,0 +1,344 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color:#fee9dd4a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.mar{
+    margin: 0 5%;
+}
+
+
+nav{
+  background-color:#FEE9DD;
+  height: 70px;
+  position:sticky;
+  top: 0px;
+}
+
+nav .sub-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .sub-nav .logo img{
+  width: 100px;
+  border: none;
+}
+
+nav .sub-nav .nav-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+nav .sub-nav .nav-right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 50px;
+}
+
+nav .sub-nav .nav-right ul li a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+nav .sub-nav .nav-right ul li a:hover{
+  color:#E72638;
+  text-decoration: underline;
+}
+nav .sub-nav .nav-right ul li a:active{
+  color:#E72638;
+  text-decoration: underline;
+}
+
+nav .mar .sub-nav .login {
+  display: flex;
+  align-items: center;
+}
+
+nav .mar .sub-nav .login a{
+  list-style-type: none;
+  text-decoration: none;
+  color:#E72638;
+}
+
+nav .mar .sub-nav .login a:hover{
+  color:rgb(175, 0, 0);
+  text-decoration: underline;
+}
+
+
+nav .mar .sub-nav .nav-right .signup{
+  display: flex;
+  align-items: center;
+  background-color:#E72638;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 0 10px;
+}
+
+nav .mar .sub-nav .nav-right .signup:hover{
+  background-color: rgb(140, 0, 0);
+  
+}
+
+nav .mar .sub-nav .nav-right .signup a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.container section .mar{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  margin-top: 80px;
+
+
+
+}
+
+.container section .cont-left{
+  
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+}
+.container section .cont-left list-one{
+ 
+  display: flex;
+  flex-direction:column;
+  align-items: start;
+  justify-content: center;
+  width: 200px;
+  margin-left: 30px;
+  gap: 10px;
+}
+
+.container section .cont-left .list-head{
+  display: flex;
+  padding: 10px;
+}
+
+.container section .cont-left h4{
+  font-weight: 600;
+}
+
+.container section .cont-left h5{
+  font-weight: 400;
+}
+
+.container section .cont-left .list-cont{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+section .cont-left .list-one{
+  width: 300px;
+  border-color: rgb(0, 0, 0, .2);
+  border-style: solid;
+  border-width:1px;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow:3px 3px 10px rgb(121, 121, 121);
+}
+
+section .cont-left .list-one .list-cont .radio{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  
+}
+
+section .cont-left .list-one .search input{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 280px;
+  height: 25px;
+}
+
+section .cont-left .list-one .search{
+  display: flex;
+  justify-content: center;
+}
+
+.container section .cont-right .mar{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  margin: 10px 25px;
+}
+
+.container section .cont-right .mar h4{
+  font-weight: 600;
+  padding: 0 30px;
+  font-size: 1.8rem;
+}
+.container section .cont-right .mar .line{
+background-color: #E72638;
+  height: 3px;
+  width: 380px;
+  margin-bottom: 70px;
+}
+
+.container section .cont-right{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+.container section .cont-right .hotels-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  /* background-color: aliceblue; */
+  margin-left: 60px;
+}
+
+
+.container section .cont-right .hotels-card .cards .hotels{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  box-shadow:3px 3px 10px rgb(121, 121, 121);
+}
+
+
+.container section .cont-right .hotels-card .cards .hotels img{
+  width: 250px;
+  height: 200px;
+}
+
+
+.container section .cont-right .hotels-card .cards .hotels .hotels-cont{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 5px ;
+  margin-left: 10px;
+  margin-bottom: 5px;
+
+  
+}
+
+.container section .cont-right .hotels-card .cards .hotels .hotels-cont h5{
+  font-weight: 500;
+}
+
+.container section .cont-right .hotels-card .cards .hotels .hotels-cont h6{
+  font-weight: 400;
+}
+
+footer{
+  background-color: #FEE9DD;
+  height: 500px;
+}
+footer .container{
+margin: 50px 0  0 0;
+
+}
+footer .container .con-top{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 150px;
+margin-top: 40px;
+
+}
+
+footer .container .con-top .con-p{
+  gap: 200px;
+  margin-top: 20px;
+  font-weight: lighter;
+  /* padding:  500px 0; */
+  
+}
+
+footer .container .con-top .con-p h4{
+  padding: 10px 0 ;
+}
+
+footer .container .con-top .con-p h6{
+  padding: 8px 0;
+  font-weight: 400;
+}
+
+footer .container .line{
+  width: 800px;
+  background-color: red;
+  height: 3px;
+  margin: 40px 280px ;
+
+
+  
+}
+
+footer .container .cont-bot{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  
+}
+
+
+footer .container .cont-bot .connect{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .cont-bot .connect .media img{
+  width: 15px;
+  padding: 7px;
+}
+
+footer .container .cont-bot .connect{
+  display: flex;
+  gap: 10px;
+}
+
+footer .container  .copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
